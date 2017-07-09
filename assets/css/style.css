@@ -1,0 +1,32 @@
+body {
+	background-image: url(../images/background.jpeg);
+}
+
+.logo {
+	width: 70%;
+	height: 70%;
+	margin: 0 auto;
+	display: block;
+}
+.logo-header {
+	float: right;
+	font-size: 24px;
+	font-weight: 20px;
+}
+
+
+.charPick {
+	border: 5px solid black;
+	float: left;
+	width: 175px;
+	height: 175px;
+}
+
+#battleField {
+	text-align: center;
+}
+
+#enemySelection {
+	text-align: center;
+}
+
