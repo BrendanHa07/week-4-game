@@ -1,18 +1,20 @@
 body {
 	background-image: url(../images/background.jpeg);
-	
+	font-family: 'Jomhuria', cursive;
 }
 
 .logo {
 	width: 70%;
-	height: 70%;
+	position: absolute;
 	margin: 0 auto;
 	display: block;
 }
 .logo-header {
 	float: right;
-	font-size: 25px;
+	font-size: 45px;
 	font-weight: 20px;
+	position: relative;
+	top: 101px;
 }
 
 
@@ -32,5 +34,14 @@ body {
 }
 
 .header {
-	font-family: 'Play', sans-serif;
+	font-family: 'Jomhuria', cursive;
+	font-size: 75px;
+}
+
+#attack {
+	font-size: 30px;
+}
+
+#battleStats {
+	text-align: center;
 }
