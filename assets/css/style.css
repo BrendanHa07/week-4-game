@@ -1,5 +1,6 @@
 body {
 	background-image: url(../images/background.jpeg);
+	
 }
 
 .logo {
@@ -10,7 +11,7 @@ body {
 }
 .logo-header {
 	float: right;
-	font-size: 24px;
+	font-size: 25px;
 	font-weight: 20px;
 }
 
@@ -30,3 +31,6 @@ body {
 	text-align: center;
 }
 
+.header {
+	font-family: 'Play', sans-serif;
+}

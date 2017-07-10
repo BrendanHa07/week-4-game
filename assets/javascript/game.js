@@ -69,28 +69,28 @@ $(document).ready(function() {
 	$('#player1').click(function() {
 		$('#player1').empty();
 		$('#playerCharArea').append('<img src="assets/images/Finn.png" class="charPick">');
-		$('#playerStats').append('<h2> Attack Power: '+ Finn.attackP +'</h2>' + '<h2 id="player1Health"> Health Points:' +Finn.health + '</h2>');
+		$('#playerStats').append('<h2> Attack Power: '+ Finn.attackP +'</h2>' + '<h2 id="player1Health"> Health Points:' +Finn.health +'</h2>' + '<h2>' + Finn.display + '</h2>');
 	});
 
 	$('#player2').click(function() {
 		player2 = Jake;
 		$('#player2').empty();
 		$('#enemyCharArea').append('<img src="assets/images/Jake.png" class="charPick">');
-		$('#enemyStats').append('<h2> Attack Power:' + Jake.attackP + '</h2>' + '<h2 id="player2Health">Health Points:' + Jake.health + '</h2>');
+		$('#enemyStats').append('<h2> Attack Power:' + Jake.attackP + '</h2>' + '<h2 id="player2Health">Health Points:' + Jake.health + '</h2>' + '<h2>' + Jake.display + '</h2>');
 	});
 
 	$('#player3').click(function() {
 		player2 = princessBubblegum;
 		$('#player3').empty();
 		$('#enemyCharArea').append('<img src="assets/images/Princess.png" class="charPick">');
-		$('#enemyStats').append('<h2> Attack Power:' + princessBubblegum.attackP + '</h2>' + '<h2 id="player3Health">Health Points:' + princessBubblegum.health + '</h2>');
+		$('#enemyStats').append('<h2> Attack Power:' + princessBubblegum.attackP + '</h2>' + '<h2 id="player3Health">Health Points:' + princessBubblegum.health + '</h2>' + '<h2>' + princessBubblegum.display + '</h2>');
 	});
 
 	$('#player4').click(function() {
 		player2 = BMO;
 		$('#player4').empty();
 		$('#enemyCharArea').append('<img src="assets/images/BMO.png" class="charPick">');
-		$('#enemyStats').append('<h2> Attack Power:' + BMO.attackP + '</h2>' + '<h2 id="player4Health">Health Points:' + BMO.health + '</h2>');
+		$('#enemyStats').append('<h2> Attack Power:' + BMO.attackP + '</h2>' + '<h2 id="player4Health">Health Points:' + BMO.health + '</h2>' + '<h2>' + BMO.display + '</h2>');
 	});
 
 	
