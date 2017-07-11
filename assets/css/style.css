@@ -1,6 +1,7 @@
 body {
 	background-image: url(../images/background.jpeg);
 	font-family: 'Jomhuria', cursive;
+
 }
 
 .logo {
@@ -15,6 +16,7 @@ body {
 	font-weight: 20px;
 	position: relative;
 	top: 101px;
+	color: #b30000;
 }
 
 
@@ -23,23 +25,32 @@ body {
 	float: left;
 	width: 175px;
 	height: 175px;
+
 }
 
 #battleField {
 	text-align: center;
+	color: black;
 }
 
-#enemySelection {
-	text-align: center;
-}
+
 
 .header {
 	font-family: 'Jomhuria', cursive;
 	font-size: 75px;
+	color: black;
 }
 
 #attack {
 	font-size: 30px;
+}
+
+#playerStats {
+	margin-right: 130px;
+}
+
+#enemyStats {
+	margin-right: 130px;
 }
 
 #battleStats {
