@@ -47,10 +47,16 @@ body {
 
 #playerStats {
 	margin-right: 130px;
+	color: black;
 }
 
 #enemyStats {
 	margin-right: 130px;
+	color: black;
+}
+
+.stats {
+	font-size: 50px;
 }
 
 #battleStats {

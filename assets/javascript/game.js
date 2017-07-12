@@ -79,18 +79,18 @@ $(document).ready(function() {
 		player1.health -= player2.counterAttack;
 		player1.attackP += player1.baseAttackP;
 
-		$('#player1Health').html('<h2> Health Points:' + Finn.health + '</h2>');
-		$('#player2Health').html('<h2> Health Points:' + Jake.health + '</h2>');
-		$('#player3Health').html('<h2> Health Points:' + princessBubblegum.health + '</h2>');
-		$('#player4Health').html('<h2> Health Points:' + BMO.health + '</h2>');
+		$('#player1Health').html('<h2 class= "stats"> Health Points: ' + Finn.health + '</h2>');
+		$('#player2Health').html('<h2 class= "stats"> Health Points: ' + Jake.health + '</h2>');
+		$('#player3Health').html('<h2 class= "stats"> Health Points: ' + princessBubblegum.health + '</h2>');
+		$('#player4Health').html('<h2 class= "stats"> Health Points: ' + BMO.health + '</h2>');
 
 
-		$('#player1Attack').html('<h2> Attack Power: ' + Finn.attackP + '</h2>');
-		$('#player2Attack').html('<h2> Attack Power: ' + Jake.attackP + '</h2>');
-		$('#player3Attack').html('<h2> Attack Power: ' + princessBubblegum.attackP + '</h2>');
-		$('#player4Attack').html('<h2> Attack Power: ' + BMO.attackP + '</h2>');
+		$('#player1Attack').html('<h2 class= "stats"> Attack Power: ' + Finn.attackP + '</h2>');
+		$('#player2Attack').html('<h2 class= "stats"> Attack Power: ' + Jake.attackP + '</h2>');
+		$('#player3Attack').html('<h2 class= "stats"> Attack Power: ' + princessBubblegum.attackP + '</h2>');
+		$('#player4Attack').html('<h2 class= "stats"> Attack Power: ' + BMO.attackP + '</h2>');
 
-
+ 
 		if (player2.health <= 0) {
 			$('#enemyCharArea').empty();
 			$('#enemyStats').html(" ");
